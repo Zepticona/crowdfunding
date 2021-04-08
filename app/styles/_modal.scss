@@ -1,0 +1,36 @@
+.backing-modal {
+    
+    .package-wrapper {
+
+        .default-view {
+            padding-left: 50px;
+            padding-right: 30px;
+        }
+        
+        .package-heading {
+            h4 {
+                margin-top: -35px;
+            }
+            .check-circle {
+                position: relative;
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-left: -40px;
+
+                .inner-circle {
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    background: red;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

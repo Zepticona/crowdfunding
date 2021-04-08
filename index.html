@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./dist/css/style.css">
+
+  <!-- Custom Script -->
+  <script src="./app/js/script.js" defer></script>
+  
+  <title>Frontend Mentor | Crowdfunding product page</title>
+  <style>
+    button {
+      display: inline-block;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <!-- Header Area Starts -->
+  <header>
+    <div class="hero">
+      <img class="hero--img" src="./app/images/image-hero-desktop.jpg" alt="Hero Image">
+        <div class="header">
+          <div class="header__logo">
+            <img class="header__logo--img" src="./app/images/logo.svg" alt="Logo">
+          </div><!-- /.header__logo -->
+          <div class="header__menu">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Discover</a></li>
+              <li><a href="#">Get Started</a></li>
+            </ul>
+          </div>
+        </div><!-- /.header -->
+    </div><!-- /.full-width-bg -->
+  </header>
+  <!-- Header Area Ends -->
+
+  <!-- Mastercraft Area Starts -->
+  <main>
+    <div class="mastercraft content-wrapper">
+      <img class="mastercraft__brand--img" src="./app/images/logo-mastercraft.svg" alt="Mastercraft">
+      
+      <div class="mastercraft__content">
+        <h2>Mastercraft Bamboo Monitor Riser</h2>
+        <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+      </div><!-- /.mastercraft__content -->
+
+      <div class="mastercraft__btn">
+        <div class="mastercraft__btn--back-project">
+          <button class="content-btn">Back this project</button>
+        </div><!-- /.mastercraft__btn--back-project -->
+
+        <div class="mastercraft__btn--bookmark ">
+          <div class="mastercraft__btn--bookmark-logo">
+            <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#2F2F2F" cx="28" cy="28" r="28"/>
+                <path fill="#B1B1B1" d="M23 19v18l5-5.058L33 37V19z"/>
+              </g>
+            </svg>
+          </div><!-- /.mastercraft__btn--bookmark-logo -->
+          <button>Bookmark</button>
+        </div><!-- /.mastercraft__btn--bookmark -->
+
+      </div><!-- /.mastercraft__btn -->
+
+    </div><!-- /.mastercraft -->
+  </main>
+  <!-- Mastercraft Area Ends -->
+
+  <!-- Analytics Area Starts -->
+  <section>
+    <div class="content-wrapper analytics">
+      <div class="analytics__statistics">
+
+        <div class="analytics__statistics--money">
+          <h4><span class="currency">$</span><span class="amount">89,914</span></h4>
+          <p>of <span class="target-money"><span class="currency">$</span><span class="amount">89,914</span></span> backed</p>
+        </div><!-- /.analytics__statistics--money -->
+        <div class="analytics__statistics--backers">
+          <h4><span class="total-backers">5007</span></h4>
+          <p>total backers</p>
+        </div><!-- /.analytics__statistics--backers -->
+        <div class="analytics__statistics--days-left">
+          <h4><span class="days-left">56</span></h4>
+          <p>days left</p>
+        </div><!-- /.analytics__statistics--days-left -->
+
+      </div><!-- /.analytics__statistics -->
+
+      <div class="analytics__progress">
+
+      </div><!-- /.analytics__progress  -->
+      
+    </div><!-- /.analytics content-wrapper -->
+  </section>
+  <!-- Analytics Area Ends -->
+
+  <!-- About Area Starts -->
+  <section>
+    <div class="about content-wrapper">
+      <div class="about__headings">
+        <h4>About this project</h4>
+        <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+          to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
+          your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+        <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+          to allow notepads, pens, and USB sticks to be stored under the stand.</p>
+      </div><!-- /.about-headings -->
+
+      <div class="about__packages package-wrapper">
+        <div class="bamboo-stand">
+          
+          <div class="about__packages--heading">
+            <h5>Bamboo Stand</h5>
+            <span>Pledge $25 or more</span>
+          </div><!-- /.about__packages--heading -->
+          
+          <div class="about__packages--description">
+            <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.</p>
+          </div><!-- /.about__packages--description -->
+
+          <div class="about__packages--access">
+
+            <div class="about__packages--access-avaiable">
+              <h4 class="about__packages--access-left">101</h4>
+              <span>left</span>
+            </div><!-- /.about__packages--access-avaiable -->
+
+            <div class="about__packages--access-order">
+              <button class="content-btn" type="button">Select reward</button>
+            </div>
+          
+          </div><!-- /.about__packages--accessibilty -->
+        </div> <!-- /.bamboo-stand -->           
+      </div><!-- /.about__packages package-wrapper-->
+
+      <div class="about__packages package-wrapper">
+        <div class="bamboo-stand">
+          
+          <div class="about__packages--heading">
+            <h5>Bamboo Stand</h5>
+            <span>Pledge $25 or more</span>
+          </div><!-- /.about__packages--heading -->
+          
+          <div class="about__packages--description">
+            <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.</p>
+          </div><!-- /.about__packages--description -->
+
+          <div class="about__packages--access">
+
+            <div class="about__packages--access-avaiable">
+              <h4 class="about__packages--access-left">101</h4>
+              <span>left</span>
+            </div><!-- /.about__packages--access-avaiable -->
+
+            <div class="about__packages--access-order">
+              <button class="content-btn" type="button">Select reward</button>
+            </div>
+          
+          </div><!-- /.about__packages--accessibilty -->
+        </div> <!-- /.bamboo-stand -->           
+      </div><!-- /.about__packages package-wrapper-->
+
+      <div class="about__packages package-wrapper out-of-stock">
+        <div class="bamboo-stand">
+          
+          <div class="about__packages--heading">
+            <h5>Bamboo Stand</h5>
+            <span>Pledge $25 or more</span>
+          </div><!-- /.about__packages--heading -->
+          
+          <div class="about__packages--description">
+            <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.</p>
+          </div><!-- /.about__packages--description -->
+
+          <div class="about__packages--access">
+
+            <div class="about__packages--access-avaiable">
+              <h4 class="about__packages--access-left">101</h4>
+              <span>left</span>
+            </div><!-- /.about__packages--access-avaiable -->
+
+            <div class="about__packages--access-order">
+              <button class="content-btn" type="button" disabled>Select reward</button>
+            </div>
+          
+          </div><!-- /.about__packages--accessibilty -->
+        </div> <!-- /.bamboo-stand -->           
+      </div><!-- /.about__packages package-wrapper-->
+
+    </div><!-- /.about content-wrapper -->
+  </section>
+  <!-- About Area Ends -->
+
+  <!-- Backing Modal Starts -->
+  <div>
+    <div class="backing-modal content-wrapper">
+      <div class="modal-heading">
+        <h4>Back this project</h4>
+        <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+      </div><!-- /.modal-heading -->
+
+
+      <div class="no-reward package-wrapper">
+        <div class="default-view">
+          <div class="package-heading">
+            <span class="check-circle">
+              <span class="inner-circle"></span>
+            </span>
+            <h4>Pledge with no reward</h4>
+          </div><!-- /.package-heading -->
+          <div class="package-content">
+            <p>Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email.</p>
+          </div><!-- /.package-content -->
+        </div><!-- /.default-view -->
+        <div class="package-select-view">
+
+        </div><!-- /.package-select-view -->
+      </div><!-- /.package-wrapper no-reward -->
+
+      <div class="bamboo-stand package-wrapper">
+        <div class="default-view">
+          <div class="package-heading">
+            <span class="check-circle">
+              <span class="inner-circle"></span>
+            </span>
+            <h4>Bamboo Stand</h4>
+          </div><!-- /.package-heading -->
+          <div class="package-content">
+            <p>Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email.</p>
+          </div><!-- /.package-content -->
+        </div><!-- /.default-view -->
+        <div class="package-select-view">
+
+        </div><!-- /.package-select-view -->
+      </div><!-- /.package-wrapper no-reward -->
+
+
+    </div><!-- /.backing-modal content-wrapper -->
+  </div>
+  <!-- Backing Modal Ends -->
+
+</div>
+
+</body>
+</html>

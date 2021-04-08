@@ -1,0 +1,73 @@
+.mastercraft {
+    text-align: center;    
+    position: relative;
+    margin-top: -80px;
+
+    &__brand--img {
+        position: absolute;
+        top: -28px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__content {
+        h2 {
+            font-weight: 700;
+            padding-top: 45px;
+            font-size: 25px;
+        }
+
+        p {
+            color: $darkGray;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+
+        &--bookmark {
+            position: relative;
+
+            &.active{
+                & button {
+                    padding-left: 20px;
+                    padding-right: 80px;
+                    color: $moderateCyan;
+                }
+
+                .mastercraft__btn--bookmark-logo{
+                    left: 121.1px;
+                }
+                .mastercraft__btn--bookmark-logo circle {
+                    fill: $moderateCyan;
+                }
+                .mastercraft__btn--bookmark-logo path {
+                    fill : white;
+                }
+            }
+
+            &-logo {
+                position: absolute;
+                left: 0px;
+                transition: all 1s;
+            }
+            & button {
+                border: none;
+                color: $darkGray;
+                background: rgb(241, 238, 238);
+                font-weight: 700;
+                padding: 16px 0px;
+                padding-left: 80px;
+                padding-right: 20px;
+                border-radius: 50px;
+                transition: all 1s;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,57 @@
+.about {
+
+    
+
+    & .package-wrapper {
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 35px 20px;
+        margin-bottom: 30px;
+    }
+    &__packages {
+        &.out-of-stock {
+            opacity: .4;
+            
+            button {
+                background: $darkGray;
+            }
+        }
+        
+        &--heading, &--access {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &--heading {
+            h5 {
+                font-weight: 700;
+
+            }
+            span {
+                color: $moderateCyan;
+            }
+        }
+
+        &--description {
+            p {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                line-height: 1.8;
+            }
+        }
+
+        &--access-avaiable {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            h4 {
+                font-weight: 700;
+                font-size: 30px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+}
